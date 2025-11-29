@@ -18,7 +18,7 @@ const {
 } = require('@whiskeysockets/baileys')
 const fs = require('fs')
 const P = require('pino')
-const config = require('./version')
+const config = require('./config')
 const qrcode = require('qrcode-terminal')
 const NodeCache = require('node-cache')
 const util = require('util')
